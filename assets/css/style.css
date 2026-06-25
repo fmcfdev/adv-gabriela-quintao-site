@@ -209,8 +209,7 @@ img {
    ========================================================================== */
 .main-header {
   height: var(--header-height);
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
+  background-color: var(--bg-white);
   position: fixed;
   top: 0;
   left: 0;
@@ -418,10 +417,10 @@ img {
 .hero-section {
   padding-top: calc(var(--header-height) + 80px);
   padding-bottom: 100px;
-  background-color: var(--bg-soft);
-  background-image: url("../images/foto_hero.webp");
+  background-color: var(--primary-dark);
+  background-image: linear-gradient(to right, rgba(11, 19, 43, 0.95) 0%, rgba(11, 19, 43, 0.8) 50%, rgba(11, 19, 43, 0.2) 100%), url("../images/foto_hero_office.webp");
   background-size: cover;
-  background-position: center right;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -441,16 +440,24 @@ img {
   z-index: 2;
 }
 
+.hero-content .badge {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--bg-white);
+  border-color: rgba(255, 255, 255, 0.3);
+  font-size: 0.65rem;
+}
+
 .hero-content h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 24px;
   letter-spacing: -0.5px;
+  color: var(--bg-white);
 }
 
 .hero-content p {
   font-size: 1.15rem;
-  color: var(--text-main);
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 40px;
   max-width: 540px;
 }
@@ -464,6 +471,27 @@ img {
 .hero-actions .btn {
   width: 340px;
   max-width: 100%;
+}
+
+.hero-actions .btn-primary {
+  background-color: var(--primary-accent);
+  color: var(--primary-dark);
+}
+
+.hero-actions .btn-primary:hover {
+  background-color: var(--primary-accent-hover);
+}
+
+.hero-actions .btn-outline {
+  background-color: transparent;
+  color: var(--bg-white);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-actions .btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--bg-white);
+  border-color: var(--bg-white);
 }
 
 .icon-whatsapp {
@@ -1415,12 +1443,12 @@ img {
   }
 
   .hero-section {
-    background-image: url("../images/foto_hero_mobile.webp");
-    background-size: 100% auto;
-    background-position: center var(--header-height);
+    background-image: linear-gradient(to bottom, rgba(11, 19, 43, 0.6) 0%, rgba(11, 19, 43, 0.95) 100%), url("../images/foto_hero_office_mobile.webp");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: calc(var(--header-height) + 85vw);
+    padding-top: calc(var(--header-height) + 60px);
     padding-bottom: 60px;
   }
 

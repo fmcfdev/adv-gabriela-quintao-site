@@ -125,11 +125,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            header.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
             header.style.padding = '5px 0'; // Compacta um pouco
             header.style.boxShadow = 'var(--shadow-md)';
         } else {
-            header.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
             header.style.padding = '';
             header.style.boxShadow = 'var(--shadow-sm)';
         }
