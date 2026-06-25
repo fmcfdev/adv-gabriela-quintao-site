@@ -1,0 +1,118 @@
+/* Estilos específicos para página de artigo */
+.article-page {
+    padding-top: calc(var(--header-height) + 40px);
+    padding-bottom: 80px;
+    background-color: var(--bg-soft);
+}
+
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--bg-white);
+    padding: 48px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.article-meta-info {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+    display: flex;
+    gap: 16px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 16px;
+}
+
+.article-content h2 {
+    font-size: 1.8rem;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.article-content h3 {
+    font-size: 1.3rem;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: var(--primary-dark-medium);
+}
+
+.article-content p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    color: var(--text-main);
+    line-height: 1.7;
+}
+
+.article-content ul, .article-content ol {
+    margin-bottom: 24px;
+    padding-left: 24px;
+}
+
+.article-content li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    color: var(--text-main);
+}
+
+.article-banner {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin-bottom: 32px;
+    background-color: var(--primary-dark-medium);
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    color: var(--primary-dark);
+    margin-bottom: 24px;
+    transition: var(--transition-fast);
+}
+
+.back-link:hover {
+    color: var(--primary-accent-hover);
+    transform: translateX(-4px);
+}
+
+.article-cta-box {
+    background-color: var(--bg-soft);
+    border-radius: var(--radius-md);
+    padding: 32px;
+    margin-top: 48px;
+    border-left: 4px solid var(--primary-accent);
+    text-align: center;
+}
+
+.article-cta-box h4 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: var(--primary-dark);
+}
+
+.article-cta-box p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .article-container {
+        padding: 24px;
+    }
+    .article-banner {
+        height: 200px;
+    }
+    .article-cta-box {
+        padding: 24px 16px;
+    }
+    .article-cta-box .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

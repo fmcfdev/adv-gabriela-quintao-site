@@ -1,0 +1,1136 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Gabriela Quintão Advocacia | Escritório de Advocacia em Ipatinga
+    </title>
+    <meta
+      name="description"
+      content="Assessoria jurídica especializada em Direito Cível, Previdenciário, Família e Consumidor. Atendimento atencioso, ágil e comprometido em Ipatinga, MG."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link para o CSS principal -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header / Menu de Navegação -->
+    <header class="main-header">
+      <div class="header-container">
+        <a href="index.html#home" class="logo-link">
+          <!-- Se o usuário colocar a logo, carrega a imagem, senão mostra texto estilizado -->
+          <div class="logo-box">
+            <img
+              src="assets/images/logo_azul.webp"
+              alt="Gabriela Quintão Advocacia"
+              class="logo-img-file"
+              onload="
+                this.nextElementSibling.style.display = 'none';
+                this.nextElementSibling.nextElementSibling.style.display =
+                  'none';
+              "
+              onerror="this.style.display = 'none'"
+            />
+            <span class="logo-initials">GQ</span>
+            <div class="logo-text">
+              <span class="logo-title">GABRIELA QUINTÃO</span>
+              <span class="logo-subtitle">ADVOCACIA</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Navegação Desktop -->
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html#home">Início</a></li>
+            <li><a href="index.html#areas">Áreas de Atuação</a></li>
+            <li><a href="index.html#sobre">Quem Somos</a></li>
+            <li><a href="index.html#artigos">Artigos</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <!-- Botão de Ação Rápida (CTA) -->
+        <div class="header-cta">
+          <a
+            href="https://wa.me/5531991580403?text=Olá,%20Dra.%20Gabriela.%20Gostaria%20de%20agendar%20uma%20consulta%20jurídica."
+            target="_blank"
+            class="btn btn-primary btn-sm"
+          >
+            Falar com Advogada
+          </a>
+        </div>
+
+        <!-- Botão Menu Mobile (Hamburguer) -->
+        <button class="mobile-menu-toggle" aria-label="Abrir Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Navegação Mobile (Drawer) -->
+    <div class="mobile-nav-overlay"></div>
+    <nav class="mobile-nav">
+      <div class="mobile-nav-header">
+        <div class="logo-box">
+          <img
+            src="assets/images/logo.webp"
+            alt="Gabriela Quintão Advocacia"
+            class="logo-img-file"
+            onload="
+              this.nextElementSibling.style.display = 'none';
+              this.nextElementSibling.nextElementSibling.style.display = 'none';
+            "
+            onerror="this.style.display = 'none'"
+          />
+          <span class="logo-initials">GQ</span>
+          <div class="logo-text">
+            <span class="logo-title">GABRIELA QUINTÃO</span>
+            <span class="logo-subtitle">ADVOCACIA</span>
+          </div>
+        </div>
+        <button class="mobile-menu-close" aria-label="Fechar Menu">
+          &times;
+        </button>
+      </div>
+      <ul>
+        <li><a href="index.html#home">Início</a></li>
+        <li><a href="index.html#areas">Áreas de Atuação</a></li>
+        <li><a href="index.html#sobre">Quem Somos</a></li>
+        <li><a href="index.html#artigos">Artigos</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a
+          href="https://wa.me/5531991580403?text=Olá,%20Dra.%20Gabriela.%20Gostaria%20de%20agendar%20uma%20consulta%20jurídica."
+          target="_blank"
+          class="btn btn-primary w-full"
+        >
+          Agendar Consulta
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section (Seção de Destaque) -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge">Advocacia de Alto Padrão</span>
+          <h1>Defesa jurídica com excelência, transparência e agilidade.</h1>
+          <p>
+            Assessoria jurídica especializada no Direito Cível e Previdenciário,
+            focada em entregar soluções ágeis e atendimento personalizado para
+            proteger os seus direitos.
+          </p>
+          <div class="hero-actions">
+            <a
+              href="https://wa.me/5531991580403?text=Olá,%20Dra.%20Gabriela.%20Gostaria%20de%20agendar%20uma%20consulta%20jurídica."
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <svg
+                class="icon-whatsapp"
+                viewBox="0 0 16 16"
+                width="20"
+                height="20"
+                fill="currentColor"
+              >
+                <path
+                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                />
+              </svg>
+              Agendar Consulta pelo WhatsApp
+            </a>
+            <a href="index.html#areas" class="btn btn-outline"
+              >Conhecer Áreas de Atuação</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Áreas de Atuação -->
+    <section id="areas" class="areas-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge">Nossos Serviços</span>
+          <h2>Áreas de Atuação Jurídica</h2>
+          <p class="section-subtitle">
+            Soluções estratégicas voltadas à defesa do seu patrimônio, da sua
+            família e do seu futuro.
+          </p>
+        </div>
+
+        <div class="areas-grid">
+          <!-- Direito Previdenciário -->
+          <div class="area-card">
+            <div class="card-icon">
+              <!-- SVG Previdenciário (Calendário/Escudo/Garantias) -->
+              <svg
+                viewBox="0 0 24 24"
+                width="40"
+                height="40"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+            </div>
+            <h3>Direito Previdenciário</h3>
+            <p class="card-desc">
+              Concessão e planejamento de benefícios para garantir a sua
+              tranquilidade financeira.
+            </p>
+            <ul class="card-list">
+              <li>Planejamento Previdenciário</li>
+              <li>Aposentadoria por Idade e Tempo</li>
+              <li>Benefício por Incapacidade (Auxílio-Doença)</li>
+              <li>BPC/LOAS e Pensão por Morte</li>
+            </ul>
+          </div>
+
+          <!-- Direito Civil e Contratos -->
+          <div class="area-card">
+            <div class="card-icon">
+              <!-- SVG Civil (Contrato/Acordo) -->
+              <svg
+                viewBox="0 0 24 24"
+                width="40"
+                height="40"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                />
+              </svg>
+            </div>
+            <h3>Direito Civil e Contratos</h3>
+            <p class="card-desc">
+              Segurança jurídica para seus negócios, contratos e relações
+              patrimoniais no dia a dia.
+            </p>
+            <ul class="card-list">
+              <li>Elaboração e Análise de Contratos</li>
+              <li>Direito Imobiliário (Locação/Compra)</li>
+              <li>Cobranças e Execuções de Dívidas</li>
+              <li>Indenizações por Danos Morais e Materiais</li>
+            </ul>
+          </div>
+
+          <!-- Direito de Família e Sucessões -->
+          <div class="area-card">
+            <div class="card-icon">
+              <!-- SVG Família (Balança/Pessoas) -->
+              <svg
+                viewBox="0 0 24 24"
+                width="40"
+                height="40"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
+                />
+              </svg>
+            </div>
+            <h3>Família e Sucessões</h3>
+            <p class="card-desc">
+              Atendimento humanizado e focado em mediar e solucionar conflitos
+              de forma ética.
+            </p>
+            <ul class="card-list">
+              <li>Divórcios Judiciais e Extrajudiciais</li>
+              <li>Pensão Alimentícia e Guarda de Filhos</li>
+              <li>Inventários Judiciais e Extrajudiciais</li>
+              <li>Planejamento Sucessório e Testamentos</li>
+            </ul>
+          </div>
+
+          <!-- Direito do Consumidor -->
+          <div class="area-card">
+            <div class="card-icon">
+              <!-- SVG Consumidor (Sacola/Proteção) -->
+              <svg
+                viewBox="0 0 24 24"
+                width="40"
+                height="40"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+              </svg>
+            </div>
+            <h3>Direito do Consumidor</h3>
+            <p class="card-desc">
+              Proteção ativa dos seus direitos diante de abusos de bancos,
+              companhias aéreas e comércios.
+            </p>
+            <ul class="card-list">
+              <li>Problemas com Voos (Atraso/Cancelamento)</li>
+              <li>Negativações Indevidas (SPC e SERASA)</li>
+              <li>Práticas Abusivas de Planos de Saúde</li>
+              <li>Cobranças Indevidas e Juros Abusivos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quem Somos Section -->
+    <section id="sobre" class="about-section">
+      <div class="container about-container">
+        <div class="about-image-wrapper">
+          <img
+            src="assets/images/quem_somos.webp"
+            alt="Dra. Gabriela Quintão Advocacia"
+            class="about-image"
+            onerror="
+              this.src =
+                'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop'
+            "
+          />
+          <div class="experience-badge">
+            <span class="exp-number">
+              <span class="num-val">5</span>
+              <span class="badge-stars">★★★★★</span>
+            </span>
+            <span class="exp-text">Avaliações no Google</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="badge">Comprometimento & Ética</span>
+          <h2>Sobre o Escritório</h2>
+          <p>
+            O escritório Gabriela Quintão Advocacia atua nas diversas áreas do
+            direito, prestando assessoria jurídica especializada, com rapidez e
+            eficiência, primando por um tratamento personalizado e atento à
+            realidade de cada cliente.
+          </p>
+          <p>
+            O respeito aos nossos clientes e ao Poder Judiciário, a
+            transparência e a eficiência na condução dos processos e na
+            comunicação com o cliente, e o nosso comprometimento com as
+            expectativas e resultados almejados pelo cliente, são os valores do
+            nosso escritório.
+          </p>
+
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-bullet"></span>
+              <div>
+                <strong>Respeito e Transparência</strong>
+                <p>
+                  Atuação pautada na ética, clareza e consideração absoluta ao
+                  cliente e à Justiça.
+                </p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-bullet"></span>
+              <div>
+                <strong>Rapidez e Eficiência</strong>
+                <p>
+                  Foco na celeridade dos procedimentos e no alcance de
+                  resultados ágeis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Depoimentos (Google Reviews) -->
+    <section class="reviews-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge">O que dizem os clientes</span>
+          <h2>Avaliações de Clientes Reais</h2>
+          <p class="section-subtitle">
+            A confiança de nossos clientes é o reflexo da seriedade do nosso
+            trabalho.
+          </p>
+        </div>
+
+        <div class="reviews-slider-container">
+          <div class="reviews-track" id="js-reviews-track">
+            <!-- 1. Junia Marizia -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Excelente profissional! Muito atenciosa, competente e dedicada.
+                Sempre explicou tudo com clareza, transmitindo segurança e
+                confiança durante todo o processo. Atendimento humanizado e
+                muito eficiente. Sou muito grata pelo suporte e recomendo de
+                olhos fechados!"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">J</span>
+                <div>
+                  <span class="author-name">Junia Marizia</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Junio Silva -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Excelente profissional. A melhor no direito Previdenciário."
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">J</span>
+                <div>
+                  <span class="author-name">Junio Silva</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Danubia Augusta -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Uma excelente profissional,que me entregou com muita agilidade
+                o que buscava, recomendo muito."
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">D</span>
+                <div>
+                  <span class="author-name">Danubia Augusta</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Camila Soares -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Profissional sensata, verdadeira e muito competente!"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">C</span>
+                <div>
+                  <span class="author-name">Camila Soares</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. Valentina Mendes -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Experiência maravilhosa!!"</p>
+              <div class="review-author">
+                <span class="author-avatar">V</span>
+                <div>
+                  <span class="author-name">Valentina Mendes</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6. Babishein Almeida -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Muito competente e honesta !!! Tem propriedade e entende onde
+                atua ! Recomendo pra todos !!!"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">B</span>
+                <div>
+                  <span class="author-name">Babishein Almeida</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 7. Andressa Silva -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Excelente atendimento ."</p>
+              <div class="review-author">
+                <span class="author-avatar">A</span>
+                <div>
+                  <span class="author-name">Andressa Silva</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 8. willian francisco -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Ótima Advogada, profissional e muito confiável."
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">W</span>
+                <div>
+                  <span class="author-name">Willian Francisco</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 9. Gabriel Freitas -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Equipe super qualificada, atendimento excelente e
+                profissionalismo exemplar. Recomendo muito!"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">G</span>
+                <div>
+                  <span class="author-name">Gabriel Freitas</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 10. Natália C.S -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Equipe extremamente competente e capacitada com atendimento
+                excelente e humanizado! Recomendo"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">N</span>
+                <div>
+                  <span class="author-name">Natália C.S</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 11. Heloysa Cattaneo -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Profissionais competentes, atenciosos e sempre dispostos a
+                esclarecer dúvidas. O atendimento é organizado e realizado com
+                muito respeito."
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">H</span>
+                <div>
+                  <span class="author-name">Heloysa Cattaneo</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 12. Rosane Barcelos -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Excelente profissional ."</p>
+              <div class="review-author">
+                <span class="author-avatar">R</span>
+                <div>
+                  <span class="author-name">Rosane Barcelos</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 13. Brenda Carolina -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "A melhor adv da região, extremamente competente e dedicada.
+                Indico de olhos fechados!"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">B</span>
+                <div>
+                  <span class="author-name">Brenda Carolina</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 14. mara assis -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Atendimento muito profissional e pessoas super atenciosas"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">M</span>
+                <div>
+                  <span class="author-name">Mara Assis</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 15. Dária Vitória -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Excelente profissional 👏👏"</p>
+              <div class="review-author">
+                <span class="author-avatar">D</span>
+                <div>
+                  <span class="author-name">Dária Vitória</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 16. Jhunny Oliveira -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Excelente atendimento! Super indico"</p>
+              <div class="review-author">
+                <span class="author-avatar">J</span>
+                <div>
+                  <span class="author-name">Jhunny Oliveira</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 17. Bruna Honorata -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Profissional extremamente competente, atenciosa e comprometida
+                com o resultado. Explica tudo com muita clareza, acompanha cada
+                etapa do processo e transmite segurança do início ao fim.
+                Recomendo de olhos fechados👏👏👏👏"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">B</span>
+                <div>
+                  <span class="author-name">Bruna Honorata</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 18. Jéssica Da mata -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Experiência ótima,muito atenciosa atende muito bem"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">J</span>
+                <div>
+                  <span class="author-name">Jéssica da Mata</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 19. Fábio Lopes Pereira -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Excelente profissional"</p>
+              <div class="review-author">
+                <span class="author-avatar">F</span>
+                <div>
+                  <span class="author-name">Fábio Lopes Pereira</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 20. welida jorge -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Excelente atendimento e profissional, estávamos a anos tentando
+                com outros advogados, e só Doutora Gabriela conseguiu, estamos
+                satisfeito com o serviço. 👏🏽👏🏽👏🏽😍"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">W</span>
+                <div>
+                  <span class="author-name">Welida Jorge</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 21. maiza maria -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Trabalho de confiança, podem contratar ela sem medo, paciência,
+                simpatia, tudo de bom"
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">M</span>
+                <div>
+                  <span class="author-name">Maiza Maria</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 22. Gibson Sena -->
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Excelente profissional com uma equipe dedicada e atenciosa.
+                Resultados expressivos e satisfatórios aos clientes, tanto em
+                demandas judiciais quanto administrativas. Uma das melhores
+                advogadas da região e indico de olhos fechados."
+              </p>
+              <div class="review-author">
+                <span class="author-avatar">G</span>
+                <div>
+                  <span class="author-name">Gibson Sena</span>
+                  <span class="author-label">Avaliação via Google</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controles do Slider -->
+        <div class="slider-controls">
+          <button
+            class="slider-btn prev-btn"
+            id="js-reviews-prev"
+            aria-label="Avaliação anterior"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5L8.25 12l7.5-7.5"
+              />
+            </svg>
+          </button>
+          <button
+            class="slider-btn next-btn"
+            id="js-reviews-next"
+            aria-label="Próxima avaliação"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Artigos / Blog (Para SEO e Autoridade) -->
+    <section id="artigos" class="blog-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge">Informativo Jurídico</span>
+          <h2>Artigos & Notícias</h2>
+          <p class="section-subtitle">
+            Fique por dentro dos seus direitos por meio de artigos com
+            explicações simples e fáceis.
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          <!-- Artigo 1 -->
+          <article class="blog-card">
+            <div class="blog-image-box">
+              <img
+                src="assets/images/artigo_inss.webp"
+                alt="Documentos e carteira de trabalho"
+                class="blog-img"
+                onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1450133064473-71024230f91b?q=80&w=400&auto=format&fit=crop'
+                "
+              />
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta">
+                Direito Previdenciário • 5 min de leitura
+              </div>
+              <h3>
+                Guia do Auxílio-Doença: O que fazer se o INSS negar o seu
+                benefício?
+              </h3>
+              <p>
+                Aprenda quais passos práticos tomar caso a perícia médica
+                administrativa indefira seu auxílio por incapacidade temporária.
+              </p>
+              <a href="artigo-auxilio-doenca.html" class="blog-link">
+                Ler sobre este direito &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Artigo 2 -->
+          <article class="blog-card">
+            <div class="blog-image-box">
+              <img
+                src="assets/images/artigo_inventario.webp"
+                alt="Acordo familiar sobre mesa"
+                class="blog-img"
+                onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=400&auto=format&fit=crop'
+                "
+              />
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta">
+                Família e Sucessões • 4 min de leitura
+              </div>
+              <h3>
+                Inventário Extrajudicial: Rapidez e menor custo na partilha em
+                cartório
+              </h3>
+              <p>
+                Esclarecemos os requisitos fundamentais para realizar a partilha
+                de bens direto no cartório de notas, economizando tempo e taxas.
+              </p>
+              <a href="artigo-inventario-extrajudicial.html" class="blog-link">
+                Ler sobre este direito &rarr;
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato e Localização -->
+    <section id="contato" class="contact-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge">Contato</span>
+          <h2>Fale Conosco</h2>
+          <p class="section-subtitle">
+            Estamos prontos para atender a sua demanda. Agende uma consulta
+            presencial ou online.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Informações de Contato -->
+          <div class="contact-info">
+            <h3>Canais de Atendimento</h3>
+            <p class="contact-intro">
+              Entre em contato pelo meio que preferir ou faça-nos uma visita
+              presencial em Ipatinga.
+            </p>
+
+            <div class="info-items">
+              <!-- Telefone -->
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.302a12.01 12.01 0 01-5.907-5.907c-.44-.44-.274-.927.101-1.21l1.293-.97a1.125 1.125 0 00.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Telefone / WhatsApp</h4>
+                  <p>
+                    <a href="https://wa.me/5531991580403" class="contact-link"
+                      >(31) 99158-0403</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <!-- E-mail -->
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4>E-mail</h4>
+                  <p>
+                    <a
+                      href="mailto:gabrielaquintaoadv@gmail.com"
+                      class="contact-link"
+                      >gabrielaquintaoadv@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <!-- Endereço -->
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25s-7.5-4.108-7.5-11.25a7.5 7.5 0 1115 0z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Endereço Físico</h4>
+                  <p>
+                    Av. das Flores, 313 B, Bairro Bom Jardim<br />Ipatinga - MG,
+                    CEP: 35162-263
+                  </p>
+                </div>
+              </div>
+
+              <!-- Horários -->
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4>Horário de Funcionamento</h4>
+                  <p>Segunda à Sexta-feira<br />das 9:00 às 18:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulário de Contato -->
+          <div class="contact-form-box">
+            <h3>Envie uma mensagem</h3>
+            <p>
+              Preencha os campos abaixo e nosso escritório retornará em breve.
+            </p>
+            <form id="js-contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Seu Nome *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Digite seu nome completo"
+                />
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">E-mail *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="seuemail@exemplo.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Telefone (com DDD) *</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="(31) 99999-9999"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Assunto *</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>
+                    Selecione um assunto
+                  </option>
+                  <option value="Previdenciário">
+                    Direito Previdenciário (Aposentadorias, INSS)
+                  </option>
+                  <option value="Civil">Direito Civil e Contratos</option>
+                  <option value="Família">
+                    Direito de Família (Divórcio, Inventário)
+                  </option>
+                  <option value="Consumidor">Direito do Consumidor</option>
+                  <option value="Outros">Outro Assunto</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="Descreva brevemente sua situação..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-full">
+                Enviar Mensagem
+              </button>
+              <div id="form-feedback" class="form-feedback"></div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Mapa Físico Google Maps -->
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.370505191097!2d-42.5458021!3d-19.4611593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x800a7b46fb4b5d%3A0xc07a82c40c3c8ab7!2sAv.%20das%20Flores%2C%20313%20-%20Bom%20Jardim%2C%20Ipatinga%20-%20MG%2C%2035162-263!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé (Footer) -->
+    <footer class="main-footer">
+      <div class="container footer-container">
+        <div class="footer-about">
+          <img
+            src="assets/images/logo_branca.webp"
+            alt="Gabriela Quintão Advocacia"
+            class="footer-logo-img"
+          />
+          <p>
+            Escritório comprometido com a segurança jurídica e a satisfação de
+            nossos clientes em Ipatinga e região. Respeito, transparência e
+            eficiência.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html#home">Início</a></li>
+            <li><a href="index.html#areas">Áreas de Atuação</a></li>
+            <li><a href="index.html#sobre">Quem Somos</a></li>
+            <li><a href="index.html#artigos">Artigos</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contatos Rápidos</h4>
+          <p><strong>WhatsApp:</strong> (31) 99158-0403</p>
+          <p><strong>E-mail:</strong> gabrielaquintaoadv@gmail.com</p>
+          <p>OAB/MG 183.881</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>
+            &copy; <span id="js-year">2026</span> Gabriela Quintão Advocacia.
+            Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a
+      href="https://wa.me/5531991580403?text=Olá,%20Dra.%20Gabriela.%20Gostaria%20de%20agendar%20uma%20consulta%20jurídica."
+      target="_blank"
+      class="float-whatsapp"
+      aria-label="Falar conosco pelo WhatsApp"
+    >
+      <svg viewBox="0 0 16 16" width="30" height="30" fill="currentColor">
+        <path
+          d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+        />
+      </svg>
+    </a>
+
+    <!-- Javascript principal -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
