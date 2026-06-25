@@ -1252,7 +1252,7 @@ img {
 }
 
 .instagram-card:hover .instagram-icon-box {
-  background-color: var(--primary-accent);
+  background-color: #ffffff;
   color: var(--primary-dark);
 }
 
@@ -1289,7 +1289,7 @@ img {
 }
 
 .instagram-card:hover .instagram-handle {
-  color: var(--primary-accent);
+  color: #ffffff;
 }
 
 /* Google Footer Card */
@@ -1319,7 +1319,7 @@ img {
 }
 
 .google-footer-card:hover .google-footer-icon-box {
-  background-color: var(--primary-accent);
+  background-color: #ffffff;
   color: var(--primary-dark);
 }
 
@@ -1341,7 +1341,7 @@ img {
 }
 
 .google-footer-card:hover .google-footer-handle {
-  color: var(--primary-accent);
+  color: #ffffff;
 }
 
 
