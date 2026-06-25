@@ -1153,6 +1153,73 @@ img {
   color: var(--bg-white);
 }
 
+/* Instagram Footer Card */
+.instagram-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  transition: var(--transition-smooth);
+}
+
+.instagram-card:hover {
+  transform: translateY(-1px);
+}
+
+.instagram-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  color: #ffffff;
+  flex-shrink: 0;
+  transition: var(--transition-fast);
+}
+
+.instagram-card:hover .instagram-icon-box {
+  background-color: var(--primary-accent);
+  color: var(--primary-dark);
+}
+
+.instagram-card .instagram-icon-box svg {
+  color: #ffffff;
+  display: block;
+  transition: transform var(--transition-fast) ease;
+}
+
+.instagram-card:hover .instagram-icon-box svg {
+  color: var(--primary-dark);
+}
+
+.instagram-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.instagram-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #a5adbb;
+  transition: var(--transition-fast);
+}
+
+.instagram-handle {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #ffffff;
+  transition: var(--transition-fast);
+}
+
+.instagram-card:hover .instagram-handle {
+  color: var(--primary-accent);
+}
+
 .footer-bottom {
   border-top: 1px solid #1c2541;
   padding: 24px 0;
